@@ -1,0 +1,30 @@
+episode Death01
+{
+optional
+name = "Pesadilla de Navidad"
+}
+map Death01 "La reunion Familiar"
+{
+next = "Death02"
+sky1 = "SKYEAR1", 0.1
+music = "EPIC"
+noinfighting
+cluster = 1
+}
+map Death02 "El banquete de Glotones"
+{
+next = "Death03"
+sky1 = "SKYEAR1", 0.1
+music = "EPIC"
+noinfighting
+cluster = 1
+}
+map Death03 "La Traca Final"
+{
+next = "map01"
+sky1 = "SKYEAR1", 0.1
+music = "EPIC"
+noinfighting
+cluster = 1
+}
+

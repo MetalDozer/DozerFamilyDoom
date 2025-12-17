@@ -28,3 +28,8 @@ noinfighting
 cluster = 1
 }
 
+map zp01 "Apocalipsis Carnivoro"
+{
+next = "Death01"
+sky1 = "TNT2_B", 1
+}

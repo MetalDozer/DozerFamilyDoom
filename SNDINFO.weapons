@@ -1,0 +1,11 @@
+// spas12
+SPASCOC		SPASCOC2
+SPASFIR		SPASFIRE
+SPASLOA		SPASLOAD
+SPASCLC     SPASCLIC  
+//Glock 21
+weapons/glockup GLOKUP
+weapons/glockfire GLOKFIRE
+weapons/glockdry GLOKDRY
+weapons/glockout GLOKOUT
+weapons/glockin	GLOKIN 

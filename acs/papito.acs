@@ -1,0 +1,13 @@
+#library "papito"
+#include "zcommon.acs"
+
+script 600 (void) {
+	print(s:"Hola Tio");
+}
+
+script 601 (void) {
+	str a = "MuhaHahHaaha";
+	print(s:"Bienvenido al infierno...\n      MuUhaHahaHahaAha!!");
+	delay(35*5);
+	print(s:"Tienes lo que hay que tener???\n", s:a);
+}

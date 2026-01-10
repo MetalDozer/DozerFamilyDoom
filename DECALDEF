@@ -181,3 +181,13 @@ Shade "60 20 10"
 X-Scale 0.25
 Y-Scale 0.25
 }
+decal SpitterScorch
+{
+	pic SCORCH1
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+	animator GoAway2
+}

@@ -1,3 +1,5 @@
 #include "DECORATE/AracnoOrbQueen/AracnoOrbQueen.dec"
 #include "DECORATE/ZombieChainsaw/ZombieChainsaw.dec"
 #include "DECORATE/cyberBaron/cyberBaron.dec"
+#include "DECORATE/spas12/spas12.dec"
+#include "DECORATE/glock/glock21.dec"

@@ -1,7 +1,17 @@
-#library "miscosas"
+#library "miquel"
 #include "zcommon.acs"
 
-script 1 (void)
+script 700 (void) {
+	print(s:"hahaahaha");
+	delay(35*2);
+	Door_Open(3, 32, 0);
+	print(s:"your death");
+	delay(35*4);
+	Light_Fade(4, 20, 255);
+	delay(35*4);
+	thing_spawn(2, T_IMP, 0, 0);
+}
+script 701 (void)
 {
 	Thing_Stop(0);
 	SetPlayerProperty(1,1, PROP_TOTALLYFROZEN);
@@ -9,12 +19,7 @@ script 1 (void)
 	Thing_Activate(9);
 	
 }
-
-script 2 (void) {
-	Print(s:"Hola ACS");
-	}
-	
-script 3 (void)
+script 702 (void)
 {
 	Door_Open(1, 32, 0);
 	

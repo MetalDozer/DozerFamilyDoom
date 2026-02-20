@@ -1,2 +1,1 @@
-#!/bin/zsh
-cat ~/Documents/credenciales/gitPAT_metaldozer.txt | xclip -selection clipboard
+

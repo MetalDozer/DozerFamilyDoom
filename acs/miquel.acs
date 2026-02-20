@@ -8,7 +8,7 @@ script 700 (void) {
 	print(s:"your death");
 	delay(35*4);
 	Light_Fade(4, 20, 255);
-	delay(35*4);
+	delay(35*1);
 	thing_spawn(2, T_IMP, 0, 0);
 }
 script 701 (void)
@@ -32,4 +32,10 @@ script 702 (void)
 	SetPlayerProperty(1,0, PROP_TOTALLYFROZEN);
 	FadeTo(0, 0, 0, 0.0, 1.0);
 	
+}
+script 703 (void)
+{
+thing_spawn(3, T_IMP, 0, 0);
+print (s:"it s broken");
+
 }

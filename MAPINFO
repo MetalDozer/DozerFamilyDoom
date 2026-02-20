@@ -3,6 +3,13 @@ episode Death01
 optional
 name = "Pesadilla de Navidad"
 }
+
+episode zp01 {
+optional
+name = "Zapatero que haces!"
+}
+
+
 map Death01 "La reunion Familiar"
 {
 next = "Death02"

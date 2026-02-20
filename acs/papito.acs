@@ -11,3 +11,18 @@ script 601 (void) {
 	delay(35*5);
 	print(s:"Tienes lo que hay que tener???\n", s:a);
 }
+
+script 602 (void) {
+	Door_Open(11, 35*2, 110);
+	light_flicker(12, 140, 80);
+	delay(35*3);
+	light_stop(12);
+	light_changetovalue(12, 70);
+	print(s:"Esto se pone feo...");
+	delay(35*3);
+	thing_spawn(13, T_CACODEMON, 64, 14);
+	delay(35*2);
+	thing_spawn(14, T_CACODEMON, 64, 14);
+	delay(35*8);
+	light_fade(12,140,35*4);
+}

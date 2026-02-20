@@ -1,0 +1,7 @@
+los scripts estan en tres archivos y numerados:
+
+papito = 600|699
+
+miquel = 700|799
+
+vicens = 800|899

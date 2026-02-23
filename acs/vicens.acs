@@ -1,0 +1,17 @@
+#library "vicens"
+#include "zcommon.acs"
+
+script 800 (void) {
+	print(s:"estas muerto");
+}
+
+
+
+script 801 (void) {
+	print(s:"tio te as de mover");
+	Light_Fade(1,100,100);
+	delay(100);
+	Thing_Spawn(2,T_SPECTRE,64,0);
+}
+
+

@@ -18,7 +18,14 @@ noinfighting
 cluster = 1
 }
 
-
+map skp02 "Libertad sospechosa"
+{
+next = "skp03"
+sky1 = "SKYEAR1", 0.1
+music = "EPIC"
+noinfighting
+cluster = 1
+}
 
 episode zp01 {
 optional

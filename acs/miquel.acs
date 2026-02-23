@@ -1,0 +1,41 @@
+#library "miquel"
+#include "zcommon.acs"
+
+script 700 (void) {
+	print(s:"hahaahaha");
+	delay(35*2);
+	Door_Open(3, 32, 0);
+	print(s:"your death");
+	delay(35*4);
+	Light_Fade(4, 20, 255);
+	delay(35*1);
+	thing_spawn(2, T_IMP, 0, 0);
+}
+script 701 (void)
+{
+	Thing_Stop(0);
+	SetPlayerProperty(1,1, PROP_TOTALLYFROZEN);
+	ChangeCamera(9, 1, 0);
+	Thing_Activate(9);
+	
+}
+script 702 (void)
+{
+	Door_Open(1, 32, 0);
+	
+	TagWait(1);
+	PlayActorsound(666, SOUND_See, CHAN_BODY, 1.0, FALSE, ATTN_NONE);
+	Thing_SetGoal(666, 667, 0, 1);
+	FadeTo(0, 0, 0, 1.0, 1.0);
+	Delay(35);
+	ChangeCamera(0, 1, 1);
+	SetPlayerProperty(1,0, PROP_TOTALLYFROZEN);
+	FadeTo(0, 0, 0, 0.0, 1.0);
+	
+}
+script 703 (void)
+{
+thing_spawn(3, T_IMP, 0, 0);
+print (s:"it s broken");
+
+}

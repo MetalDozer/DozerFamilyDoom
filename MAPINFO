@@ -4,6 +4,22 @@ optional
 name = "Pesadilla de Navidad"
 }
 
+episode skp01 {
+optional
+name = "Escapa de la prision"     
+}
+
+map skp01 "Escapa de la prision"
+{
+next = "skp02"
+sky1 = "SKYEAR1", 0.1
+music = "EPIC"
+noinfighting
+cluster = 1
+}
+
+
+
 episode zp01 {
 optional
 name = "Zapatero que haces!"

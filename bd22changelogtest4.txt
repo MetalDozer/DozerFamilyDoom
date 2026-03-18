@@ -1,0 +1,22 @@
+Main additions:
+
+- Massive performance improvements, even ridiculous slaughtermaps like Speed of Doom Map30 and even Okuplok can work now depending on your computer's power.
+- Greatly improved blood decals and blood effects, wall blood decals looks more realistic and lags less when looked up close.
+- New test map of a ruined city. (only with standard monster placement, hordes on UV still not implemented)
+- Water particles redone to be more realistic and have better performance use
+- All enemy projectiles have new explosions that makes them more unique and have less performance impact.
+- Many weapons received new sprites.
+- Fire particles redone, special notice to Flamethrower.
+- New slaughtermap test map: map TEST_01
+- Go explore, I always forget to include all the changes in changelogs.
+
+
+What to expect from future builds:
+
+- Tests 4.1 or 4.2/etc. in case we find problems that needs a quickfix
+- Test 5 to implement community suggestions and Extermination Day Test 2 coming along with it.
+- Test 5.1 and 5.2/etc. for quickfixes on Test 5
+- v22 Gold
+
+Join the Brutal Doom community on Discord:
+https://discord.com/invite/BhdxejuERV

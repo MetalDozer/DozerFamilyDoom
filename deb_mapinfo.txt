@@ -5,19 +5,18 @@ gameinfo
 	DimAmount = 0.5
 }
 ///////DIFFICULTIES
-//clearskills
-//skill baby
-//skill easy
-//skill normal
-//skill Hard
-//skill Nightmare
+clearskills
+skill baby
+skill easy
+skill normal
+skill Hard
+skill Nightmare
 //6
-//skill BlackMetal
-//skill Realism3
-//skill Realism5
+skill BlackMetal
+skill Realism3
+skill Realism5
 /////////  maps and gamemodes
 episode TEST_old
-{
 map TITLEMAP "Titlemap"
 {
 }
@@ -139,6 +138,8 @@ Intermission Doom2Cast
 		CastName = "$CC_DEMON"
 		AttackSound = "Melee", 1, "demon/melee"
 	}
+	Cast
+	{
 	Cast
 	{
 		CastClass = "BDMummyCast"
